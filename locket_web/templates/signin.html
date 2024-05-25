@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locket Gold</title>
+    <link rel="stylesheet" href="../static/CSS/style-signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../static/IMG/locket.jpg">
+</head>
+<body class="body"  >
+    <div class="container" id="container" class="opati">
+        <div class="form-container sign-up-container" class="opati">
+            
+            <form id="register-form" >
+                <h1>Tạo tài khoản</h1>
+                <input type="text" id="register-username" placeholder="Tài khoản"  />   
+                <input type="password" id="register-password" placeholder="mật khẩu" />
+                <input type="email" id="register-email" placeholder="Email" />
+                
+                <input type="text" id="register-full_name" placeholder="Họ và tên" />
+                <select id="gender" name="gender" class="custom-select"> 
+                    <option value="male" class="gt">Nam</option>
+                    <option value="female" class="gt">Nữ</option>
+                </select>
+                <input type="text" id="register-date_of_birth" class="placeholder" placeholder="Ngày sinh" />
+           
+                <button type="submit" id="button_register" class="neon">Đăng ký</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container" >
+            <form id="login-form">
+                <h1>Đăng nhập</h1>
+                <input type="text" id="login-username" placeholder="Tài khoản" />
+                <input type="password" id="login-password" placeholder="Mật khẩu" />
+                <a href="forgotpw.html" class="quen">Quên mật khẩu?</a>
+                <button type="submit" id="button_login" class="neon">Đăng nhập</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Chào bạn trở lại!</h1>
+                    <br>
+                    <img src="../static/img/avatar_default.jpg" class="logo" alt="">
+
+                    <p>Để duy trì kết nối với chúng tôi vui lòng đăng nhập bằng thông tin cá nhân của bạn</p>
+                    <button class="ghost" id="signIn">Đăng nhập</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Chào bạn đến với <span class="lkg">
+                        Locket Gold
+                    </span></h1>
+                    <img src="../static/img/locket.jpg" alt="" class="logo">
+                    <p>Nhập thông tin của bạn và bắt đầu nào
+                    </p>
+                    <button class="ghost" id="signUp" >Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../static/js/api/serverlocket.js"></script>
+    <script src="../static/js/api/cookie_access.js"></script>
+    <script src="../static/JS/style-signin.js"></script>
+    <script src="../static/js/api/api_signup.js"></script>
+    <script src="../static/js/api/api_signin.js"></script>
+    <script src="../static/js/api/next_page.js"></script>
+
+
+</body>
+</html>

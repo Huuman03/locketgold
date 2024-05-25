@@ -1,0 +1,181 @@
+.body{
+  background-color: #000000;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.avatar img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.rotate {
+  animation: spin 2s linear infinite; /* Áp dụng animation */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); } /* Góc quay ban đầu là 0 độ */
+  100% { transform: rotate(360deg); } /* Quay một vòng đầy là 360 độ */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #d4dae2;
+  width: 500px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search-bar button i {
+  color: #555;
+  font-size: 16px;
+}
+
+.search-bar button:hover i {
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+  
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 20px;
+  background-color: #555;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
+nav ul li a:hover {
+  background-color: #777;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.friend-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.friend-list li {
+  margin-bottom: 10px;
+  background-color: #aaaaaa;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.friend-name {
+  flex: 1;
+}
+
+.add-friend-btn {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-friend-btn:hover {
+  background-color: #218838;
+}
+.friend-avatar {
+    width: 50px; /* Điều chỉnh kích thước ảnh tùy ý */
+    height: 50px; /* Điều chỉnh kích thước ảnh tùy ý */
+    border-radius: 50%; /* Làm cho ảnh có hình dạng tròn */
+    margin-right: 10px; /* Khoảng cách giữa ảnh và các chi tiết bạn bè */
+}
+.color{
+  color: white;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locket Gold</title>
+  <link rel="icon" type="image/x-icon" href="./static/IMG/locket.jpg">
+  <link rel="stylesheet" href="..//static/CSS/style-messenger.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Import Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body class="body">
+  <header>
+
+    <div class="avatar rotate" id="back_home"><img src="./static/IMG/locket.jpg" alt=""></div>
+    
+    <nav>
+      <ul>
+        <li><a href="#" id="add_friend"><i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+        <li><a href="#" id="mess"><i class="fa fa-commenting" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+        <li><a href="#" id="setting"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <div class="dropdown" id="dropdown">
+      <button class="dropdown-toggle" id="dropdown-toggle">Mọi người</button>
+      <div class="dropdown-menug" id="dropdown-menu">
+        <ul id="userss" class="del">
+        </ul>
+      </div>
+    </div>
+
+    <div class="icon-below-dropdown">
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+    
+   <div class="avatar2-container" id="hh">
+    <img  alt="Avatar" id="image_user1" class="avatarinbox" > <!-- avatar người 1-->
+    <h3 id="name_user" class="col"></h3>
+    
+   </div>
+
+   <div class="post" >
+    
+    <div class="inbox" id="inbox">
+
+      
+      
+      
+    </div>
+    
+    <input name="input" placeholder=" Nội dung tin nhắn" id="message"
+    class="send"></input>
+    <button class="buttongui" id="send">Gửi</button>
+    
+</div>
+
+    
+    
+
+  </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../static/js/api/serverlocket.js"></script>
+<script src="../static/js/api/check_access.js"></script>
+ <script src="../static/js/api/next_page.js"></script>
+<script src="../static/JS/style-message.js"></script>
+ <script src="../static/js/api/get_friend.js"></script>
+
+  
+   <script src="../static/js/api/get_mess.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.min.js"></script>
+  <script src="../static/js/api/mess.js"></script>
+  <script src="../static/js/api/click_friend.js"></script>
+</body>
+
+</html>

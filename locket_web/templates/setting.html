@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locket Gold</title>
+    <link rel="icon" type="image/x-icon" href="./IMG/locket.jpg">
+    <link rel="stylesheet" href="..//static/CSS/style_setting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Import Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="body">
+    <header>
+
+        <div class="avatar rotate" id="back_home"><img src="../static/IMG/locket.jpg" alt=""></div>
+        
+        <nav>
+            <ul>
+                <li><a href="#" id="add_friend"><i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+        <li><a href="#" id="mess"><i class="fa fa-commenting" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+        <li><a href="#" id="setting"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="card">
+        <label for="slider"></label>
+
+        <div class="wrapper">
+            <div class="top-icons">
+                <i class="fas fa-long-arrow-alt-left"></i>
+                <i class="fas fa-ellipsis-v"></i>
+                <i class="far fa-heart"></i>
+            </div>
+
+            <div class="profile">
+                <img src="./IMG/avt1.jpg" id="image_user1" class="thumbnail">
+                <h3 class="name" id="name_user"></h3>
+
+                <button type="button" class="btn" id="image"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    Sửa Ảnh Hồ Sơ</button>
+                <button type="button" class="btn"><i class="fa fa-tag" aria-hidden="true"></i>
+                    Sửa Tên</button>
+                <button type="button" class="btn"><i class="fa fa-id-card-o" aria-hidden="true"></i>
+                    Sửa Ngày Sinh</button>
+                <button type="button" class="btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    Thay Đổi Địa Chỉ Email</button>
+
+                <button type="button" class="btn" id="logout"><i class="fa fa-share" aria-hidden="true" ></i>
+                    Đăng Xuất</button>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../static/js/api/serverlocket.js"></script>
+<script src="../static/js/api/check_access.js"></script>
+    <script src="../static/js/api/logout.js"></script>
+    <script src="../static/js/api/setting.js"></script>
+    <script src="../static/js/api/next_page.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.friend-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.friend-list li {
+  margin-bottom: 10px;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.friend-name {
+  flex: 1;
+}
+
+.add-friend-btn {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-friend-btn:hover {
+  background-color: #218838;
+}
+
+.friend-avatar {
+    width: 50px; /* Điều chỉnh kích thước ảnh tùy ý */
+    height: 50px; /* Điều chỉnh kích thước ảnh tùy ý */
+    border-radius: 50%; /* Làm cho ảnh có hình dạng tròn */
+    margin-right: 10px; /* Khoảng cách giữa ảnh và các chi tiết bạn bè */
+}
+

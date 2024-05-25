@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tìm kiếm và kết bạn</title>
+<link rel="stylesheet" href="..//static/CSS/search_friend.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<!-- Import Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+<header>
+    <div class="avatar rotate" id="back_home"><img src="../static/IMG/locket.jpg" alt=""></a></div>
+    <div class="search-bar">
+      <button><i class="fa fa-search" aria-hidden="true" id="search_friend"></i></button>
+      <input type="text" placeholder="Tìm kiếm trên Locket Gold" id="search">
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#" id="add_friend"><i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+        
+        <li><a href="#" id="mess"><i class="fa fa-commenting" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+        <li><a href="#" id="setting"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+
+    <!-- <form action="#" method="get">
+      <div class="input-group">
+        <label for="search">Tên bạn bè:</label>
+        <input type="text" id="search" name="search" placeholder="Nhập tên bạn bè...">
+      </div>
+      <button type="submit" class="btn" id="search_friend">Tìm kiếm</button>
+    </form> -->
+
+    <h3 class="color">Danh sách bạn bè</h3>
+    <ul class="friend-list" id="friendList">
+
+    </ul>
+    <h3 class="color">Danh sách bạn bè Gửi Kết Bạn</h3>
+  <ul class="friend-list-request" id="friendRequest">
+     </ul>
+  </div>
+
+
+   
+  </ul>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../static/js/api/serverlocket.js"></script>
+<script src="../static/js/api/check_access.js"></script>
+    <script src="../static/js/api/make_friend.js"></script>
+    <script src="../static/js/api/search_friend.js"></script>
+    <script src="../static/js/api/select_confirm_friendship.js"></script>
+    <script src="../static/js/api/Agree_friends.js"></script>
+    <script src="../static/js/api/next_page.js"></script>
+</body>
+</html>
